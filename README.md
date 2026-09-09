@@ -9,7 +9,7 @@
 <p align="center">
   <img alt="MCU: ESP32-P4" src="https://img.shields.io/badge/MCU-ESP32--P4-E7352C?style=flat-square" />
   <img alt="Wireless: ESP32-C5HF4" src="https://img.shields.io/badge/Wireless-ESP32--C5HF4-0A7BBB?style=flat-square" />
-  <img alt="Clock: 360 MHz" src="https://img.shields.io/badge/Clock-360_MHz-F39C12?style=flat-square" />
+  <img alt="Clock: 400 MHz" src="https://img.shields.io/badge/Clock-400_MHz-F39C12?style=flat-square" />
   <img alt="Flash: 16 MB" src="https://img.shields.io/badge/Flash-16_MB-27AE60?style=flat-square" />
   <img alt="PSRAM: 32 MB" src="https://img.shields.io/badge/PSRAM-32_MB-27AE60?style=flat-square" />
   <img alt="Size: 25x25 mm" src="https://img.shields.io/badge/Size-25x25_mm-6C5CE7?style=flat-square" />
@@ -34,19 +34,19 @@
 
 ## 产品简介
 
-> 📌 当前参数基于 **ESP32-P4 芯片 v1.3 版本**。
+> 📌 当前参数基于 **ESP32-P4 芯片 v3.x 版本**。
 
 OSPTEK ESP32P4C5 核心板（ESP32-P4C5-Core）是一款基于乐鑫 ESP32-P4 设计的小尺寸
 邮票孔核心板，板载 16 MB NOR Flash 与 32 MB PSRAM，并集成 ESP32-C5 芯片，提供
 Wi-Fi 6（2.4/5 GHz 双频）与蓝牙 5（LE）无线连接（板载 IPEX 天线接口）。
 
-主控 ESP32-P4 内置 2 个高性能（HP）RISC-V 内核和 1 个低功耗（LP）内核，主频高达 360 MHz；集成 JPEG 编解码器、像素处理加速器（PPA）、H.264 视频编码器、图像信号处理器（ISP）和 MIPI 接口，具备强大的图像与多媒体处理能力。
+主控 ESP32-P4 内置 2 个高性能（HP）RISC-V 内核和 1 个低功耗（LP）内核，主频高达 400 MHz；集成 JPEG 编解码器、像素处理加速器（PPA）、H.264 视频编码器、图像信号处理器（ISP）和 MIPI 接口，具备强大的图像与多媒体处理能力。
 
 ---
 
 ## 产品特性
 
-- ⚡ **高性能双核**：ESP32-P4 双核 RISC-V 处理器，主频高达 360 MHz
+- ⚡ **高性能双核**：ESP32-P4 双核 RISC-V 处理器，主频高达 400 MHz
 - 💾 **大容量存储**：板载 16 MB Flash + 32 MB PSRAM，从容运行大型应用
 - 🎨 **强大多媒体**：集成 JPEG 编解码、H.264 视频编码、PPA、ISP、MIPI 接口，胜任图像与视频处理
 - 📶 **无线连接**：Wi-Fi 6 + 蓝牙 5（LE），板载 IPEX 天线接口（ESP32-C5）
@@ -76,7 +76,7 @@ Wi-Fi 6（2.4/5 GHz 双频）与蓝牙 5（LE）无线连接（板载 IPEX 天�
 | -------- | ---------------------------------------- |
 | 主控芯片 | 乐鑫 ESP32-P4                            |
 | CPU 内核 | RISC-V 32 位双核（HP）+ 单核（LP）        |
-| 主频     | HP 系统 360 MHz / LP 系统 40 MHz         |
+| 主频     | HP 系统 400 MHz / LP 系统 40 MHz         |
 | ROM      | 128 KB（HP）+ 16 KB（LP）                |
 | SRAM     | 768 KB L2MEM（HP）+ 32 KB（LP）          |
 | Flash    | 16 MB（板载 NOR Flash）                  |
@@ -227,10 +227,12 @@ esp32-p4c5-core-board/
 
 ### 芯片资料（乐鑫官方）
 
-- [ESP32-P4 数据手册 v1.3（中文）](https://documentation.espressif.com/esp32-p4-chip-revision-v1.3_datasheet_cn.html)
-- [ESP32-P4 数据手册 v1.3（英文）](https://documentation.espressif.com/esp32-p4-chip-revision-v1.3_datasheet_en.html)
-- [ESP32-P4 技术参考手册 v1.3（中文）](https://documentation.espressif.com/esp32-p4-chip-revision-v1.3_technical_reference_manual_cn.pdf)
-- [ESP32-P4 技术参考手册 v1.3（英文）](https://documentation.espressif.com/esp32-p4-chip-revision-v1.3_technical_reference_manual_en.pdf)
+- [ESP32-P4 数据手册（中文）](https://documentation.espressif.com/esp32-p4_datasheet_cn.html)
+- [ESP32-P4 数据手册（英文）](https://documentation.espressif.com/esp32-p4_datasheet_en.html)
+- [ESP32-P4 技术参考手册（中文）](https://documentation.espressif.com/esp32-p4_technical_reference_manual_cn.pdf)
+- [ESP32-P4 技术参考手册（英文）](https://documentation.espressif.com/esp32-p4_technical_reference_manual_en.pdf)
+- [ESP32-P4 芯片版本 v3.x 用户指南（中文）](https://documentation.espressif.com/esp32-p4-chip-revision-v3.x_user_guide_cn.html)
+- [ESP32-P4 芯片版本 v3.x 用户指南（英文）](https://documentation.espressif.com/esp32-p4-chip-revision-v3.x_user_guide_en.html)
 - [ESP32-P4 产品主页（中文）](https://www.espressif.com/zh-hans/producttype/esp32-p4)
 - [ESP32-P4 产品主页（英文）](https://www.espressif.com/en/producttype/esp32-p4)
 - [ESP32-C5 数据手册（中文）](https://documentation.espressif.com/esp32-c5_datasheet_cn.html)

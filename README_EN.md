@@ -9,7 +9,7 @@
 <p align="center">
   <img alt="MCU: ESP32-P4" src="https://img.shields.io/badge/MCU-ESP32--P4-E7352C?style=flat-square" />
   <img alt="Wireless: ESP32-C5HF4" src="https://img.shields.io/badge/Wireless-ESP32--C5HF4-0A7BBB?style=flat-square" />
-  <img alt="Clock: 360 MHz" src="https://img.shields.io/badge/Clock-360_MHz-F39C12?style=flat-square" />
+  <img alt="Clock: 400 MHz" src="https://img.shields.io/badge/Clock-400_MHz-F39C12?style=flat-square" />
   <img alt="Flash: 16 MB" src="https://img.shields.io/badge/Flash-16_MB-27AE60?style=flat-square" />
   <img alt="PSRAM: 32 MB" src="https://img.shields.io/badge/PSRAM-32_MB-27AE60?style=flat-square" />
   <img alt="Size: 25x25 mm" src="https://img.shields.io/badge/Size-25x25_mm-6C5CE7?style=flat-square" />
@@ -34,20 +34,20 @@
 
 ## Overview
 
-> 📌 The specifications below are based on the **ESP32-P4 chip revision v1.3**.
+> 📌 The specifications below are based on the **ESP32-P4 chip revision v3.x**.
 
 The OSPTEK ESP32-P4C5 Core Board (ESP32-P4C5-Core) is a compact stamp-hole core board based on
 Espressif's ESP32-P4. It features 16 MB onboard NOR Flash and 32 MB PSRAM, and integrates an
 ESP32-C5 chip that provides Wi-Fi 6 (2.4/5 GHz dual-band) and Bluetooth 5 (LE) connectivity
 (onboard IPEX antenna connector).
 
-The ESP32-P4 main controller integrates two high-performance (HP) RISC-V cores and one low-power (LP) core, running at up to 360 MHz. It includes a JPEG codec, Pixel Processing Accelerator (PPA), H.264 video encoder, Image Signal Processor (ISP) and MIPI interfaces, delivering powerful image and multimedia processing capability.
+The ESP32-P4 main controller integrates two high-performance (HP) RISC-V cores and one low-power (LP) core, running at up to 400 MHz. It includes a JPEG codec, Pixel Processing Accelerator (PPA), H.264 video encoder, Image Signal Processor (ISP) and MIPI interfaces, delivering powerful image and multimedia processing capability.
 
 ---
 
 ## Features
 
-- ⚡ **High-Performance Dual-Core**: ESP32-P4 dual-core RISC-V processor, up to 360 MHz
+- ⚡ **High-Performance Dual-Core**: ESP32-P4 dual-core RISC-V processor, up to 400 MHz
 - 💾 **Ample Memory**: 16 MB Flash + 32 MB PSRAM onboard for large applications
 - 🎨 **Rich Multimedia**: JPEG codec, H.264 video encoding, PPA, ISP and MIPI interfaces for image & video processing
 - 📶 **Wireless Connectivity**: Wi-Fi 6 + Bluetooth 5 (LE), onboard IPEX antenna connector (ESP32-C5)
@@ -77,7 +77,7 @@ The ESP32-P4 main controller integrates two high-performance (HP) RISC-V cores a
 | --------- | ------------------------------------------ |
 | Main Chip | Espressif ESP32-P4                         |
 | CPU Cores | RISC-V 32-bit dual-core (HP) + single-core (LP) |
-| Clock     | HP 360 MHz / LP 40 MHz                     |
+| Clock     | HP 400 MHz / LP 40 MHz                     |
 | ROM       | 128 KB (HP) + 16 KB (LP)                   |
 | SRAM      | 768 KB L2MEM (HP) + 32 KB (LP)            |
 | Flash     | 16 MB (onboard NOR Flash)                  |
@@ -229,8 +229,9 @@ esp32-p4c5-core-board/
 
 ### Chip Documentation (Espressif)
 
-- [ESP32-P4 Datasheet v1.3](https://documentation.espressif.com/esp32-p4-chip-revision-v1.3_datasheet_en.html)
-- [ESP32-P4 Technical Reference Manual v1.3](https://documentation.espressif.com/esp32-p4-chip-revision-v1.3_technical_reference_manual_en.pdf)
+- [ESP32-P4 Datasheet](https://documentation.espressif.com/esp32-p4_datasheet_en.html)
+- [ESP32-P4 Technical Reference Manual](https://documentation.espressif.com/esp32-p4_technical_reference_manual_en.pdf)
+- [ESP32-P4 Chip Revision v3.x User Guide](https://documentation.espressif.com/esp32-p4-chip-revision-v3.x_user_guide_en.html)
 - [ESP32-P4 Product Page](https://www.espressif.com/en/producttype/esp32-p4)
 - [ESP32-C5 Datasheet](https://documentation.espressif.com/esp32-c5_datasheet_en.html)
 - [ESP32-C5 Product Page](https://www.espressif.com/en/products/socs/esp32-c5)
